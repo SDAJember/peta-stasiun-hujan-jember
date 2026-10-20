@@ -1,0 +1,80 @@
+﻿NO,NAMA_STASI,NO_POS,SHVP,KORSDA,Latitude,Longitude,Curah_Huja,Status_Verifikasi
+1,Sumber Kalong,75 B,321 M,Sukowono,-8.083227777777777,113.822075,90,Perlu verifikasi
+2,Sukorejo,75 E,324 M,Sukowono,-8.081175,113.8280694444444,56,Perlu verifikasi
+3,Sukowono,75 A,358 M,Sukowono,-8.051086111111111,113.8348166666667,85,Perlu verifikasi
+4,Cumedak,75 D,452 M,Sukowono,-8.09763888888889,113.8924222222222,55,Perlu verifikasi
+5,Sumber Jambe,75 C,492 M,Sukowono,-8.065366666666666,113.8348166666667,75,Perlu verifikasi
+6,Jatian,90 A,225 M,Kalisat,-8.149852777777777,113.7962361111111,88,Perlu verifikasi
+7,Ajung (Kalisat),90,275 M,Kalisat,-8.13283888888889,113.8215027777778,60,Perlu verifikasi
+8,Suren,111 C,299 M,Kalisat,-8.1639,113.849075,25,Perlu verifikasi
+9,Ledokombo,111 A,368 M,Kalisat,-8.141202777777778,113.8701944444445,35,Perlu verifikasi
+10,Karang Kedawung,243,133 M,Mayang,-8.233897222222222,113.7550444444445,88,Perlu verifikasi
+11,Seputih,113,163 M,Mayang,-8.195261111111112,113.7915,56,Perlu verifikasi
+12,Silo,2723,368 M,Mayang,-8.195944444444445,113.8669555555555,33,Perlu verifikasi
+13,Sumber Jati,245,419 M,Mayang,-8.19185,113.8850694444444,22,Perlu verifikasi
+14,Tempurejo,112,69 M,Mayang,-8.290325,113.6917388888889,17,Perlu verifikasi
+15,Sembah,2606,130 M,Patrang,-8.156519444444445,113.6920861111111,120,Perlu verifikasi
+16,Arjasa 2,2653,169 M,Patrang,-8.12171388888889,113.7475305555556,25,Perlu verifikasi
+17,Bintoro (Kasmaran 2),2606,189 M,Patrang,-8.12171388888889,113.7028361111111,55,Perlu verifikasi
+18,Kopang,724,238 M,Patrang,-8.104897222222222,113.7192111111111,35,Perlu verifikasi
+19,Tegal Batu 2,60,326 M,Patrang,-8.075322222222223,113.7497,55,Perlu verifikasi
+20,Jember,2653,104 M,Sumbersari,-8.195216666666667,113.7076805555556,65,Perlu verifikasi
+21,Wirolegi,92,125 M,Sumbersari,-8.194461111111112,113.7391555555556,70,Perlu verifikasi
+22,Pakusari,2598,179 M,Sumbersari,-8.177383333333333,113.7872722222222,80,Perlu verifikasi
+23,KOTTOK,88 A,182 M,Sumbersari,-8.121591666666667,113.7710972222222,65,Perlu verifikasi
+24,Ajung (Renes),2594,83 M,Sumbersari,-8.213716666666667,113.6694944444444,78,Perlu verifikasi
+25,Kemuningsari,124,31 M,Jenggawah,-8.287227777777778,113.6152027777778,77,Perlu verifikasi
+26,Jenggawah,120 C,71 M,Jenggawah,-8.254111111111111,113.6506083333333,56,Perlu verifikasi
+27,DAM Talang,120 B,86 M,Jenggawah,-8.26305,113.6940055555555,63,Perlu verifikasi
+28,Karanganyar,120,22 M,Ambulu,-8.342852777777777,113.6083611111111,99,Perlu verifikasi
+29,Sanenrejo,115,48 M,Ambulu,-8.362822222222222,113.7858333333333,55,Perlu verifikasi
+30,Jatimulyo,125,68 M,Ambulu,-8.299447222222222,113.6741361111111,24,Perlu verifikasi
+31,Lojejer,70,25 M,Wuluhan,-8.349052777777779,113.5076361111111,28,Perlu verifikasi
+32,Sumberejo,104 E,28 M,Wuluhan,-8.394572222222223,113.593075,36,Perlu verifikasi
+33,Ampel,104 H,30 M,Wuluhan,-8.353225,113.5287055555556,56,Perlu verifikasi
+34,Kesilir Timur,119 C,30 M,Wuluhan,-8.354152777777777,113.5878472222222,78,Perlu verifikasi
+35,Kesilir Barat,104,32 M,Wuluhan,-8.388958333333333,113.5424611111111,57,Perlu verifikasi
+36,Tamansari,103,34 M,Wuluhan,-8.301202777777778,113.5470111111111,88,Perlu verifikasi
+37,Sabrang,119 D,34 M,Wuluhan,-8.375191666666666,113.5969527777778,50,Perlu verifikasi
+38,Glundengan,102 A,38 M,Wuluhan,-8.299077777777779,113.5610777777778,45,Perlu verifikasi
+39,Tanjungrejo,102 B,38 M,Wuluhan,-8.327344444444444,113.567625,35,Perlu verifikasi
+40,Gumelar Timur,101,50 M,Wuluhan,-8.248791666666667,113.5651083333333,32,Perlu verifikasi
+41,Grenden,104 F,22 M,Balung,-8.345066666666666,113.470975,77,Perlu verifikasi
+42,Puger Wetan,104,24 M,Balung,-8.334663888888889,113.4995777777778,78,Perlu verifikasi
+43,Bagorejo,104 Z,28 M,Balung,-8.303333333333333,113.4453333333333,99,Perlu verifikasi
+44,Jambearum,104 G,31 M,Balung,-8.294497222222223,113.511125,10,Perlu verifikasi
+45,Balung,102 B,34 M,Balung,-8.280733333333334,113.5316,56,Perlu verifikasi
+46,Karangduren,27 D,35 M,Balung,-8.271805555555556,113.4897833333333,58,Perlu verifikasi
+47,Tugusari,2860,152 M,Bangsalsari,-8.167911111111112,113.5449194444444,56,Perlu verifikasi
+48,Paleran,27 A,41 M,Bangsalsari,-8.229911111111111,113.4777972222222,52,Perlu verifikasi
+49,Curah Malang,101 A,47 M,Bangsalsari,-8.241516666666667,113.5674222222222,33,Perlu verifikasi
+50,Sukorejo,26 A,48 M,Bangsalsari,-8.221744444444445,113.5301972222222,35,Perlu verifikasi
+51,Rowotamtu,100 A,54 M,Bangsalsari,-8.229719444444445,113.5842416666667,78,Perlu verifikasi
+52,Langkap (Bangsalsari),64 A,56 M,Bangsalsari,-8.201272222222222,113.5449194444444,85,Perlu verifikasi
+53,Kijingan (Tisnogambar),49 A,63 M,Bangsalsari,-8.195480555555555,113.5677666666667,56,Perlu verifikasi
+54,Klatakan,2376,371,Rambipuji,-8.121666666666666,113.5936111111111,54,Perlu verifikasi
+55,DAM Pono,2623,154 M,Rambipuji,-8.152005555555556,113.639225,56,Perlu verifikasi
+56,DAM Karanganom,2683,200 M,Rambipuji,-8.140580555555555,113.6321777777778,32,Perlu verifikasi
+57,DAM Manggis,2711,321 M,Rambipuji,-8.122608333333334,113.6553722222222,32,Perlu verifikasi
+58,Dam Pecoro,2636,55 M,Rambipuji,-8.214544444444444,113.5859416666667,35,Perlu verifikasi
+59,DAM Makam,2676,73 M,Rambipuji,-8.194330555555556,113.6190527777778,33,Perlu verifikasi
+60,Pengamat SDA Rambipuji,99,74 M,Rambipuji,-8.207175,113.611075,55,Perlu verifikasi
+61,DAM Semangir,2681,95 M,Rambipuji,-8.18116111111111,113.6529416666667,54,Perlu verifikasi
+62,Jamintoro,,181 M,Tanggul,-8.056847222222222,113.3643666666667,89,Perlu verifikasi
+63,Tanggul,22,52 M,Tanggul,-8.162933333333333,113.4499222222222,99,Perlu verifikasi
+64,Karangbayat,22 A,89 M,Tanggul,-8.107747222222223,113.4176972222222,65,Perlu verifikasi
+65,Manggisan,22 C,97 M,Tanggul,-8.149513888888889,113.4733444444445,77,Perlu verifikasi
+66,Darungan,22 B,99 M,Tanggul,-8.150213888888889,113.479425,85,Perlu verifikasi
+67,Wringin Agung,KS 2,20 M,Sumberbaru,-8.19073888888889,113.4072,65,Perlu verifikasi
+68,Pondok Joyo,21,44 M,Sumberbaru,-8.150019444444444,113.4288583333333,38,Perlu verifikasi
+69,Watu Urip,20,47 M,Sumberbaru,-8.121947222222222,113.4164444444445,91,Perlu verifikasi
+70,Kencong,28,25 M,Kencong,-8.273080555555556,113.3683694444444,55,Perlu verifikasi
+71,Pladingan,27,27 M,Kencong,-8.227980555555556,113.3517666666667,54,Perlu verifikasi
+72,Kencong 2,28 K,28 M,Kencong,-8.270030555555556,113.3719305555556,25,Perlu verifikasi
+73,Pondok Waluh,27 A,30 M,Kencong,-8.221847222222221,113.3892305555556,25,Perlu verifikasi
+74,Semboro,22 A,45 M,Semboro,-8.209525,113.4477944444444,24,Perlu verifikasi
+75,Bedodo,28 E,21 M,Gumukmas,-8.338177777777778,113.3828555555556,78,Perlu verifikasi
+76,Gumukmas KT,28 D,24 M,Gumukmas,-8.302066666666667,113.3981416666667,89,Perlu verifikasi
+77,Gumukmas BT,28 C,25 M,Gumukmas,-8.283466666666667,113.4049333333333,84,Perlu verifikasi
+78,Wonorejo,28 B,30 M,Gumukmas,-8.269033333333333,113.4038361111111,56,Perlu verifikasi
+79,Menampu,104 K,31 M,Gumukmas,-8.326508333333333,113.412475,89,Perlu verifikasi
