@@ -107,7 +107,16 @@ button,.filebtn{border:0;border-radius:8px;padding:10px 13px;background:var(--bl
     maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
   let stations = [], markers = [], filtered = [], selectedId = null;
-  try { const saved = localStorage.getItem(STORE); stations = saved === null ? INITIAL_STATIONS : JSON.parse(saved); } catch(e) { stations = INITIAL_STATIONS; }
+  // Recover automatically if browser storage contains an empty or invalid station list.
+  try {
+    const saved = localStorage.getItem(STORE);
+    const parsed = saved === null ? null : JSON.parse(saved);
+    stations = Array.isArray(parsed) && parsed.length > 0 ? parsed : INITIAL_STATIONS;
+    if (!Array.isArray(parsed) || parsed.length === 0) localStorage.setItem(STORE, JSON.stringify(INITIAL_STATIONS));
+  } catch(e) {
+    stations = INITIAL_STATIONS;
+    try { localStorage.setItem(STORE, JSON.stringify(INITIAL_STATIONS)); } catch(_) {}
+  }
   const SUPA = window.STATION_MAP_CONFIG || {};
   const cloudMode = Boolean(SUPA.supabaseUrl && SUPA.supabaseAnonKey && window.supabase);
   const supa = cloudMode ? window.supabase.createClient(SUPA.supabaseUrl, SUPA.supabaseAnonKey) : null;
@@ -149,7 +158,13 @@ button,.filebtn{border:0;border-radius:8px;padding:10px 13px;background:var(--bl
       if(result.error)throw result.error;
       cloudReady=true;cloudOriginalIds=(result.data||[]).map(r=>String(r.id));
       if(result.data && result.data.length){stations=result.data.map(fromDb);localStorage.setItem(STORE,JSON.stringify(stations));}
-      else cloudMessage('Database terhubung, tetapi tabel belum berisi data. Login admin lalu sinkronkan 79 titik awal.');
+      else {
+        if (!Array.isArray(stations) || stations.length === 0) {
+          stations = INITIAL_STATIONS;
+          localStorage.setItem(STORE, JSON.stringify(stations));
+        }
+        cloudMessage('Database terhubung, tetapi tabel belum berisi data. Menampilkan data awal 79 stasiun; admin dapat menyinkronkan ke database.');
+      }
       await refreshAdminState();render();
       supa.auth.onAuthStateChange(async(_event,session)=>{currentUser=session?.user||null;await refreshAdminState();});
       if(result.data?.length)cloudMessage('Terhubung. Data dimuat dari database publik.');
