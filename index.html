@@ -18,34 +18,20 @@ button,.filebtn{border:0;border-radius:8px;padding:10px 13px;background:var(--bl
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:12px}.stat{background:#f5f8fb;border:1px solid var(--line);border-radius:10px;padding:12px}.stat strong{display:block;font-size:23px;color:var(--blue)}.stat span{font-size:11px;color:var(--muted)}
 .panel h2{font-size:16px;margin:0 0 10px}.panel h3{font-size:13px;margin:16px 0 8px}.field{display:grid;gap:5px;margin:8px 0}.field label{font-size:12px;color:var(--muted);font-weight:650}.field input,.field select,.field textarea{width:100%}.actions{display:flex;flex-wrap:wrap;gap:7px}.tablepanel{margin-top:14px}.tablehead{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}.tablewrap{overflow:auto;margin-top:10px}table{width:100%;border-collapse:collapse;white-space:nowrap}th,td{text-align:left;border-bottom:1px solid #e7edf2;padding:10px 9px;font-size:12px}th{background:#f4f7fa;color:#526777;font-size:11px;text-transform:uppercase;letter-spacing:.04em;position:sticky;top:0}tbody tr:hover{background:#f7fafc}.empty{text-align:center;padding:35px;color:var(--muted)}.small{font-size:12px;color:var(--muted)}.status{font-size:12px;padding:7px 10px;border-radius:8px;background:#eaf5ee;color:#1e6841;margin-top:9px;display:none}.status.error{background:#fff0f0;color:#9b2226}.status.show{display:block}.adminbox{border-top:1px solid var(--line);margin-top:15px;padding-top:12px}.adminbox summary{font-weight:750;cursor:pointer;color:var(--blue)}.footer{padding:20px 0 0;text-align:center;color:var(--muted);font-size:11px}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.mapwrap{min-height:430px}#map{height:430px}}@media(max-width:520px){main{padding:0 9px 24px}.stats{grid-template-columns:repeat(3,1fr)}.stat{padding:8px}.stat strong{font-size:19px}.toolbar button,.toolbar .filebtn{flex:1}.panel{padding:11px}}
-.instansi-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 14px;
-  background: #fff;
-  border-bottom: 3px solid #e6b422;
-  color: #17365d;
-  font-family: Arial, sans-serif;
-  position: relative;
-  z-index: 1000;
-}
 </style>
 </head>
 <body>
-<header class="instansi-header">
-  <img src="./logo-pupr.jpg" alt="Logo PUPR">
-  <img src="./logo-jember.png" alt="Logo Kabupaten Jember">
-  <div class="instansi-text">
-    DINAS PEKERJAAN UMUM DAN PENATAAN RUANG
-    <div>KABUPATEN JEMBER</div>
-    <div class="instansi-subtitle">
-      Peta Stasiun Hujan Kabupaten Jember
-    </div>
-  </div>
-</header>
 <header>
-  <div class="eyebrow">Portal data geospasial • Sumber daya air</div>
+  <div style="display:flex; align-items:center; gap:10px; margin-bottom:12px;">
+    <img src="./logo-pupr.jpg" alt="Logo PUPR"
+         style="width:36px; height:36px; object-fit:contain; flex-shrink:0;">
+
+    <img src="./logo-jember.png" alt="Logo Kabupaten Jember"
+         style="width:36px; height:36px; object-fit:contain; flex-shrink:0;">
+
+    <div class="eyebrow">Portal data geospasial • Dinas Pekerjaan Umum dan Penataan Ruang</div>
+  </div>
+
   <h1>Peta Stasiun Hujan Kabupaten Jember</h1>
   <p>Jelajahi lokasi stasiun hujan, cari data berdasarkan nama atau wilayah, dan unduh koordinat untuk keperluan analisis.</p>
 </header>
