@@ -150,8 +150,15 @@ button,.filebtn{border:0;border-radius:8px;padding:10px 13px;background:var(--bl
   function toDb(s){return {id:String(s.id),name:s.name,latitude:Number(s.lat),longitude:Number(s.lon),korsda:s.korsda||s.district||null,no_pos:s.no_pos||null,elevation:s.elevation||null,rainfall:s.rainfall||null,status:s.status||'Perlu verifikasi',notes:s.notes||null,source_properties:s.properties||{},updated_at:new Date().toISOString()};}
   async function syncCloud(){if(!cloudMode||!cloudReady||!isAdmin||syncInProgress)return;syncInProgress=true;try{const rows=stations.map(toDb);for(let i=0;i<rows.length;i+=100){const {error}=await supa.from('rain_stations').upsert(rows.slice(i,i+100));if(error)throw error;}const nowIds=stations.map(x=>String(x.id));const removed=cloudOriginalIds.filter(id=>!nowIds.includes(String(id)));for(let i=0;i<removed.length;i+=100){const {error}=await supa.from('rain_stations').delete().in('id',removed.slice(i,i+100));if(error)throw error;}cloudOriginalIds=nowIds;cloudMessage('Database tersinkron. Perubahan dapat dilihat semua pengunjung.');}finally{syncInProgress=false;}}
   async function initCloud(){
-    if(!cloudMode){cloudMessage('Mode lokal: buat project Supabase, jalankan supabase/schema.sql, lalu isi config.js.');$('adminLogin').disabled=true;return;}$('adminLogin').disabled = false;
+    if(!cloudMode){
+      cloudMessage('Mode lokal: buat project Supabase, jalankan supabase/schema.sql, lalu isi config.js.');
+      $('adminLogin').disabled = true;
+      return;
+    }
+    
+    $('adminLogin').disabled = false;
     cloudMessage('Menghubungkan ke database…');
+
     try{
       const {data:{session}}=await supa.auth.getSession();currentUser=session?.user||null;
       const result=await supa.from('rain_stations').select('*').order('name');
